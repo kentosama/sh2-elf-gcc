@@ -13,7 +13,6 @@ VERSION="9.3.0"
 ARCHIVE="gcc-${VERSION}.tar.xz"
 URL="https://gcc.gnu.org/pub/gcc/releases/gcc-${VERSION}/${ARCHIVE}"
 SHA512SUM="4b9e3639eef6e623747a22c37a904b4750c93b6da77cf3958d5047e9b5ebddb7eebe091cc16ca0a227c0ecbd2bf3b984b221130f269a97ee4cc18f9cf6c444de"
-#SHA512SUM="a12dff52af876aee0fd89a8d09cdc455f35ec46845e154023202392adc164848faf8ee881b59b681b696e27c69fd143a214014db4214db62f9891a1c8365c040"
 DIR="gcc-${VERSION}"
 
 # Check if user is root

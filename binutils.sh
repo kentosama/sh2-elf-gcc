@@ -50,9 +50,9 @@ if [ ${ARCH} != "i386" ] && [ ${ARCH} != "i686" ]; then
 fi
 
 # Configure before build
-${SRC_DIR}/${DIR}/configure     --prefix=${INSTALL_DIR}            \
-                                --build=${BUILD_MACH}           \
-                                --host=${HOST_MACH}             \
+${SRC_DIR}/${DIR}/configure     --prefix=${INSTALL_DIR} \
+                                --build=${BUILD_MACH} \
+                                --host=${HOST_MACH} \
                                 --target=${TARGET} \
                                 --disable-werror \
                                 --disable-nls \
