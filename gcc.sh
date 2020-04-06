@@ -64,7 +64,6 @@ ${SRC_DIR}/${DIR}/configure --prefix=${INSTALL_DIR}                        \
                             --with-gcc \
                             --without-headers \
                             --without-included-gettext \
-                            --disable-nls \
                             --enable-lto \
                             --enable-languages=c,c++ \
                             --disable-threads \
@@ -74,7 +73,6 @@ ${SRC_DIR}/${DIR}/configure --prefix=${INSTALL_DIR}                        \
                             --disable-werror \
                             --disable-libssp \
                             --disable-shared \
-                            --disable-multilib \
                             --disable-libgcj \
                             --disable-libstdcxx \ 
 
