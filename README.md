@@ -1,4 +1,4 @@
-# SH2 toolchain for the Hitachi SuperH2
+# GCC toolchain for the Hitachi SuperH2
 
 This is a set of bash scripts for build gcc toolchain on unix environment for the Hitachi SuperH2 (sh2) was used in **SEGA Saturn** and **32X**.
 
