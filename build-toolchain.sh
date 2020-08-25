@@ -9,8 +9,8 @@
 #Email         	:   kentosama@genku.net                                          
 ###################################################################
 
-BUILD_BINUTILS="no"
-BUILD_GCC_STAGE_1="no"
+BUILD_BINUTILS="yes"
+BUILD_GCC_STAGE_1="yes"
 BUILD_GCC_STAGE_2="yes"
 BUILD_NEWLIB="yes"
 
