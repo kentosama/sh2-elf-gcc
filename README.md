@@ -15,13 +15,13 @@ $ sudo pacman -S base-devel
 **Debian**
 ```bash
 $ sudo apt update
-$ sudo apt install build-essential
+$ sudo apt install build-essential texinfo
 ```
 
 **Ubuntu**
 ```bash
 $ sudo apt update
-$ sudo apt install build-essential
+$ sudo apt install build-essential texinfo
 ```
 
 **Fedora**
@@ -55,8 +55,8 @@ $ sudo cp -R sh2-toolchain /opt
 If you want, add the SH2 toolchain to your path environment:
 
 ```bash
-$ echo export PATH="${PATH}:/opt/sh2-toolchain/bin" > ~/.bash_profile
-$ source ~/.bash_profile
+$ echo export PATH="${PATH}:/opt/sh2-toolchain/bin" >> ~/.bash_rc
+$ source ~/.bash_rc
 ```
 
 Finally, check that sh2-elf-gcc is working properly:
